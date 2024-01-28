@@ -70,6 +70,30 @@ class _HomeState extends State<Home> {
             },
             child: const Text('Authenticate'),
           ),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text("Change Theme"),
+          ),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text("Change Theme"),
+          ),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text("Change Theme"),
+          ),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text("Change Theme"),
+          ),
+          const CloseButton(),
+          IconButton(
+            style: const ButtonStyle(
+              iconColor: MaterialStatePropertyAll(Colors.greenAccent),
+            ),
+            onPressed: () {},
+            icon: const Icon(Icons.dashboard),
+          )
         ],
       ),
     );
